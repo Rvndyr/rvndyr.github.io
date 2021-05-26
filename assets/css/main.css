@@ -1,8 +1,96 @@
-/* .alignBox {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-} */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.nav {
+  flex-direction: row;
+  text-align: right;
+}
+.navLinks a {
+  text-decoration: none;
+}
+#profilepic {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.textContainer {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-top: 150px;
+}
+.descText {
+  font-size: 4rem;
+}
+.portText1 {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  opacity: 1;
+}
+.portText2 {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+  opacity: 1;
+}
+.portText3 {
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-body {
-  padding: 0;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
