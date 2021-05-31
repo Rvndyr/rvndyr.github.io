@@ -9,6 +9,8 @@
 }
 .navLinks a {
   text-decoration: none;
+  padding: 4px 4px 4px;
+  font-size: 1.5rem;
 }
 #profilepic {
   height: 13rem;
