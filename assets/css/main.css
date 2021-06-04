@@ -14,15 +14,24 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.nameLogo {
+  width: 4rem;
+  height: auto;
+  /* text-align: left; */
+}
 .nav {
   flex-direction: row;
   text-align: right;
+  margin: 5px 5px 5px;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 24px;
 }
 .navLinks a {
   text-decoration: none;
-  padding: 4px 4px 4px;
+  padding: 1em 1em 1em;
   font-size: 1.5rem;
 }
+
 #profilepic {
   height: 13rem;
   width: 13rem;
