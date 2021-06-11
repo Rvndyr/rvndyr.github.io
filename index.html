@@ -6,30 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Randy Rodriguez</title>
     <script src="assets/js/main.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <nav class="nav">
-      <img class="nameLogo" src="images/Randy(White).png" alt="Randylogo" />
-      <div class="navLinks">
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact Me</a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="nameLogoWhite" src="images/Randy(White).png" alt="" width="80" height="70" />
+          <img class="nameLogoBlack" src="images/Randy(Black).png" alt="" width="80" height="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item bg">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact me</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="container">
-      <img id="profilepic" src="images/avatar.jpeg" alt="profilepic" />
-      <div class="textContainer">
-        <div class="portText1">
-          <span class="descText">Hi.</span>
-        </div>
-        <div class="portText2">
-          <span class="descText">My name is Randy.</span>
-        </div>
-        <div class="portText3">
-          <span class="descText">I am a software engineer.</span>
-        </div>
+      <img class="img-fluid profilepic" src="images/avatar.jpeg" alt="profilepic" />
+    </div>
+
+    <div class="container">
+      <div class="portText1">
+        <span class="descText">Hi.</span>
+      </div>
+      <div class="portText2">
+        <span class="descText">My name is Randy.</span>
+      </div>
+      <div class="portText3">
+        <span class="descText">I am a software engineer.</span>
       </div>
     </div>
   </body>
