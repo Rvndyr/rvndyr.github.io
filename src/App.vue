@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nav-bar></nav-bar>
     <router-view />
   </div>
 </template>
@@ -38,5 +39,9 @@ body {
 }
 </style>
 <script>
-export default {};
+import NavBar from "@/components/NavBar.vue";
+export default {
+  name: "home",
+  components: { "nav-bar": NavBar },
+};
 </script>

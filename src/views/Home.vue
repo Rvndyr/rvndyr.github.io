@@ -1,6 +1,5 @@
 <template>
   <div>
-    <nav-bar></nav-bar>
     <div class="container">
       <div>
         <b-img class="img-fluid profilepic" src="images/avatar.jpeg" alt="profilepic" />
@@ -100,10 +99,7 @@
 }
 </style>
 <script>
-import NavBar from "@/components/NavBar.vue";
 export default {
-  name: "home",
-  components: { "nav-bar": NavBar },
   data: function () {
     return {};
   },
