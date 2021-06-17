@@ -1,6 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import { BNavbar } from "bootstrap-vue";
+
+Vue.component("b-navbar", BNavbar);
 
 Vue.use(VueRouter);
 

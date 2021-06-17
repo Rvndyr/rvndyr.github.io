@@ -22,6 +22,9 @@ body {
   .nameLogoBlack {
     display: none;
   }
+  .nav-item.nav-item.nav-item.nav-link-inner--text a {
+    color: #eee;
+  }
 }
 @media (prefers-color-scheme: light) {
   html,
@@ -35,6 +38,9 @@ body {
   }
   .nameLogoWhite {
     display: none;
+  }
+  .nav-item.nav-item.nav-item.nav-link-inner--text a {
+    color: #121212;
   }
 }
 </style>
