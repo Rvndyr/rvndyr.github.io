@@ -21,7 +21,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
+          <b-nav-form class="d-flex justify-content-end mb-3">
             <li class="nav-item">
               <a class="nav-link nav-link-icon">
                 <!-- <span class="nav-link nav-link-inner--text" to="/">Home</span> -->
@@ -55,4 +55,8 @@
 <script>
 export default {};
 </script>
-<style></style>
+<style>
+.form-inline li {
+  padding: 1rem;
+}
+</style>
