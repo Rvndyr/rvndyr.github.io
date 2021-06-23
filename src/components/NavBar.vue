@@ -19,7 +19,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link nav-link-icon">
-                <b-nav-item class="nav-link nav-link-inner--text">Portfolio</b-nav-item>
+                <b-nav-item class="nav-link nav-link-inner--text">Projects</b-nav-item>
               </a>
             </li>
             <li class="nav-item">

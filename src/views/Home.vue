@@ -16,6 +16,60 @@
         <span class="descText">I am a software engineer.</span>
       </div>
     </b-container>
+    <section>
+      <b-container>
+        <h3>Projects</h3>
+        <div>
+          <b-card-group deck>
+            <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card-text>
+                This is a Instagram clone collaborated project built in Html, CSS, and Javascript. On the front-end
+              </b-card-text>
+              <template #footer>
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </template>
+            </b-card>
+
+            <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card-text>This card has supporting text below as a natural lead-in to additional content.</b-card-text>
+              <template #footer>
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </template>
+            </b-card>
+
+            <b-card
+              title="Title"
+              class="bg-dark"
+              img-src="https://picsum.photos/300/300/?image=41"
+              img-alt="Image"
+              img-top
+            >
+              <b-card-text>
+                This is a wider card with supporting text below as a natural lead-in to additional content. This card
+                has even longer content than the first to show that equal height action.
+              </b-card-text>
+              <template #footer>
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </template>
+            </b-card>
+          </b-card-group>
+        </div>
+      </b-container>
+    </section>
+    <section>
+      <b-container>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </b-container>
+    </section>
   </div>
 </template>
 <style>
