@@ -15,7 +15,7 @@ body {
   }
 }
 .page-section {
-  padding: 13rem 0;
+  padding: 9rem 0;
 }
 @media (prefers-color-scheme: dark) {
   html,
@@ -30,8 +30,11 @@ body {
   .nameLogoBlack {
     display: none;
   }
-  .nav-item.nav-item.nav-item.nav-link-inner--text a {
+  /* .nav-item.nav-item.nav-item.nav-link-inner--text a {
     color: #eee;
+  } */
+  #mainNav a {
+    color: #eee !important;
   }
 }
 @media (prefers-color-scheme: light) {
@@ -47,8 +50,11 @@ body {
   .nameLogoWhite {
     display: none;
   }
-  .nav-item.nav-item.nav-item.nav-link-inner--text a {
+  /* .nav-item.nav-item.nav-item.nav-link-inner--text a {
     color: #121212;
+  } */
+  #mainNav a {
+    color: #121212 !important;
   }
 }
 </style>

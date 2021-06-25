@@ -1,22 +1,24 @@
 <template>
   <div>
-    <b-container>
-      <div>
-        <b-img class="profilepic" src="images/avatar.jpeg" alt="profilepic" />
-      </div>
-    </b-container>
-    <b-container>
-      <div class="portText1">
-        <span class="descText">Hi.</span>
-      </div>
-      <div class="portText2">
-        <span class="descText">My name is Randy.</span>
-      </div>
-      <div class="portText3">
-        <span class="descText">I am a software engineer.</span>
-      </div>
-    </b-container>
-    <section class="page-section" id="services">
+    <section class="page-section" href="#Home">
+      <b-container>
+        <div>
+          <b-img class="profilepic" src="images/avatar.jpeg" alt="profilepic" />
+        </div>
+      </b-container>
+      <b-container>
+        <div class="portText1">
+          <span class="descText">Hi.</span>
+        </div>
+        <div class="portText2">
+          <span class="descText">My name is Randy.</span>
+        </div>
+        <div class="portText3">
+          <span class="descText">I am a software engineer.</span>
+        </div>
+      </b-container>
+    </section>
+    <section class="page-section" href="#Skills">
       <div class="container px-4 px-lg-5">
         <h2 class="text-center mt-0">Skills</h2>
         <hr class="divider" />
@@ -75,9 +77,11 @@
         </div>
       </div>
     </section>
-    <section class="page-section">
-      <b-container>
-        <h3>Projects</h3>
+    <section class="page-section" href="#Projects">
+      <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Projects</h2>
+        <hr class="divider" />
+
         <div>
           <b-card-group deck>
             <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
@@ -113,7 +117,7 @@
             </b-card>
           </b-card-group>
         </div>
-      </b-container>
+      </div>
     </section>
     <section class="page-section">
       <b-container></b-container>
