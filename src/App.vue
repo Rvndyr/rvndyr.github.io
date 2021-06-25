@@ -9,6 +9,14 @@
 body {
   min-height: 100vh;
 }
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+.page-section {
+  padding: 13rem 0;
+}
 @media (prefers-color-scheme: dark) {
   html,
   template,

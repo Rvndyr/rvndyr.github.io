@@ -16,7 +16,66 @@
         <span class="descText">I am a software engineer.</span>
       </div>
     </b-container>
-    <section>
+    <section class="page-section" id="services">
+      <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Skills</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/html-5--v1.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/css3.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/javascript.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/nodejs.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/vue-js.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/red-hat.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/git.png" />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/postgreesql.png" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/color/96/000000/github-2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section">
       <b-container>
         <h3>Projects</h3>
         <div>
@@ -56,19 +115,8 @@
         </div>
       </b-container>
     </section>
-    <section>
-      <b-container>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </b-container>
+    <section class="page-section">
+      <b-container></b-container>
     </section>
   </div>
 </template>
@@ -82,6 +130,10 @@
 }
 .descText {
   font-size: 4rem;
+}
+.icon {
+  height: 50px;
+  width: 50px;
 }
 .portText1 {
   animation: fadeIn 2s;
