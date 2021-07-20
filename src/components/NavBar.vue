@@ -1,44 +1,11 @@
 <template>
   <div>
-    <!-- <b-navbar toggleable="lg" class="navbar-horizontal">
-      <b-navbar-brand></b-navbar-brand>
-
-      <b-navbar-toggle class="<b-icon-border-width>" target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-
-        <b-navbar-nav class="ml-auto">
-          <b-nav-form class="d-flex justify-content-end mb-3">
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon">
-                <b-nav-item class="nav-link nav-link-inner--text" to="/" active>Home</b-nav-item>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon">
-                <b-nav-item class="nav-link nav-link-inner--text">Projects</b-nav-item>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon">
-                <b-nav-item class="nav-link nav-link-inner--text">About</b-nav-item>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon">
-                <b-nav-item class="nav-link nav-link-inner--text">Resume</b-nav-item>
-              </a>
-            </li>
-          </b-nav-form>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar> -->
     <nav class="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">
+        <!-- <a class="navbar-brand" href="#page-top">
           <b-img class="nameLogoBlack" left src="images/Randy(Black).png" alt="" width="80" height="70" />
           <b-img class="nameLogoWhite" left src="images/Randy(White).png" alt="" width="80" height="70" />
-        </a>
+        </a> -->
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
