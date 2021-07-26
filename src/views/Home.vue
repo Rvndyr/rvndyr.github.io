@@ -23,7 +23,7 @@
           <b-card-group columns>
             <b-card
               title="Multi-Mon.tv"
-              class="bg-transparent"
+              class="bg-transparent border-none"
               img-src="https://media.giphy.com/media/jYNFdVGdIBwRk1p74T/giphy.gif"
               img-alt="Multi-Mon Gif"
               img-top
@@ -32,13 +32,15 @@
                 Twitch Multi-Mon - A utility used to watch multiple streamers utilizing the Twitch API
               </b-card-text>
               <b-row class="py-4 text-center m-3">
-                <b-col class="">
-                  <a href="https://github.com/Rvndyr/MultiMon-frontend">
-                    <b-icon icon="github" scale="2" variant="light"></b-icon>
-                  </a>
+                <ul class="icon-set">
+                  <li>
+                    <a href="https://github.com/Rvndyr/MultiMon-frontend">
+                      <b-icon icon="github" scale="2" variant="light"></b-icon>
+                    </a>
+                  </li>
 
-                  <b-icon icon="linkedin" scale="2" variant="light"></b-icon>
-                </b-col>
+                  <li><b-icon icon="linkedin" scale="2" variant="light"></b-icon></li>
+                </ul>
               </b-row>
             </b-card>
             <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
@@ -66,6 +68,14 @@
   </div>
 </template>
 <style>
+.icon-set li {
+  display: inline;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.border-none {
+  border-style: none;
+}
 .profilepic {
   height: 15rem;
   width: 15rem;
