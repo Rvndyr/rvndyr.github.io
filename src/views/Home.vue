@@ -16,7 +16,7 @@
 
     <section class="page-section" href="#Projects">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">Projects</h2>
+        <h1 class="text-center mt-0">Projects</h1>
         <hr class="divider" />
 
         <div>
