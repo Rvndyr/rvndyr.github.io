@@ -39,7 +39,7 @@
                       <b-icon icon="github" scale="2" variant="light"></b-icon>
                     </a>
                   </li>
-                  <a href="https://github.com/Rvndyr/MultiMon-frontend" target="_blank">
+                  <a href="https://multi-mon.netlify.app/" target="_blank">
                     <li class="text-bold">LIVE</li>
                   </a>
                 </ul>
@@ -70,9 +70,6 @@
   </div>
 </template>
 <style>
-.card:hover {
-  background-color: grey;
-}
 .text-bold {
   font-weight: 600 !important;
 }
