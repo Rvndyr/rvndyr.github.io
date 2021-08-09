@@ -23,9 +23,10 @@
           <b-card-group columns>
             <b-card
               title="Multi-Mon.tv"
-              class="bg-transparent border-none"
+              class="bg-transparent"
               img-src="https://media.giphy.com/media/jYNFdVGdIBwRk1p74T/giphy.gif"
               img-alt="Multi-Mon Gif"
+              border-variant="secondary"
               img-top
             >
               <b-card-text>
@@ -34,30 +35,31 @@
               <b-row class="py-4 text-center m-3">
                 <ul class="icon-set">
                   <li>
-                    <a href="https://github.com/Rvndyr/MultiMon-frontend">
+                    <a href="https://github.com/Rvndyr/MultiMon-frontend" target="_blank">
                       <b-icon icon="github" scale="2" variant="light"></b-icon>
                     </a>
                   </li>
-
-                  <li><b-icon icon="linkedin" scale="2" variant="light"></b-icon></li>
+                  <a href="https://github.com/Rvndyr/MultiMon-frontend" target="_blank">
+                    <li class="text-bold">LIVE</li>
+                  </a>
                 </ul>
               </b-row>
             </b-card>
-            <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+            <!-- <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
               <b-card-text>
                 This is a Instagram clone collaborated project built in Html, CSS, and Javascript. On the front-end
               </b-card-text>
               <template #footer>
                 <small class="text-muted">Last updated 3 mins ago</small>
               </template>
-            </b-card>
+            </b-card> -->
 
-            <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+            <!-- <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
               <b-card-text>This card has supporting text below as a natural lead-in to additional content.</b-card-text>
               <template #footer>
                 <small class="text-muted">Last updated 3 mins ago</small>
               </template>
-            </b-card>
+            </b-card> -->
           </b-card-group>
         </div>
       </div>
@@ -68,6 +70,19 @@
   </div>
 </template>
 <style>
+.card:hover {
+  background-color: grey;
+}
+.text-bold {
+  font-weight: 600 !important;
+}
+a {
+  color: #fff !important;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
 .icon-set li {
   display: inline;
   padding-right: 1rem;
