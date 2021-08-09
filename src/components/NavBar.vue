@@ -19,9 +19,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto my-2 my-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#home">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> -->
             <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
           </ul>
         </div>
