@@ -22,7 +22,15 @@
             <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
             <li class="nav-item"><router-link class="nav-link" to="/about">About</router-link></li>
             <!-- <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> -->
-            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://docs.google.com/document/d/1SdAqbDNZB9bDLs_ev2EAJ06BXYyr-0qpHBcpI15izZw/edit?usp=sharing"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>
