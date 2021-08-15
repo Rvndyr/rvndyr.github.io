@@ -2,10 +2,6 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <!-- <a class="navbar-brand" href="#page-top">
-          <b-img class="nameLogoBlack" left src="images/Randy(Black).png" alt="" width="80" height="70" />
-          <b-img class="nameLogoWhite" left src="images/Randy(White).png" alt="" width="80" height="70" />
-        </a> -->
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"

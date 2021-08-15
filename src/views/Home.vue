@@ -23,7 +23,7 @@
           <b-card-group columns>
             <b-card
               title="Multi-Mon.tv"
-              class="bg-transparent"
+              class="bg-transparent text-center"
               img-src="https://media.giphy.com/media/jYNFdVGdIBwRk1p74T/giphy.gif"
               img-alt="Multi-Mon Gif"
               border-variant="secondary"
@@ -45,14 +45,31 @@
                 </ul>
               </b-row>
             </b-card>
-            <!-- <b-card title="Exchangagram" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+
+            <b-card
+              title="JS Framework Watcher"
+              class="bg-transparent text-center"
+              img-src="https://media.giphy.com/media/YRkHWhZu8OKhibYuJt/giphy.gif"
+              img-alt="Framework Table"
+              border-variant="secondary"
+              img-top
+            >
               <b-card-text>
-                This is a Instagram clone collaborated project built in Html, CSS, and Javascript. On the front-end
+                A simple table that allows you to see how frequent some Javascript frameworks are used.
               </b-card-text>
-              <template #footer>
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </template>
-            </b-card> -->
+              <b-row class="py-4 text-center m-3">
+                <ul class="icon-set">
+                  <li>
+                    <a href="https://github.com/Rvndyr/framework-watcher" target="_blank">
+                      <b-icon icon="github" scale="2" variant="light"></b-icon>
+                    </a>
+                  </li>
+                  <a href="https://amazing-galileo-550ce6.netlify.app/" target="_blank">
+                    <li class="text-bold">LIVE</li>
+                  </a>
+                </ul>
+              </b-row>
+            </b-card>
 
             <!-- <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
               <b-card-text>This card has supporting text below as a natural lead-in to additional content.</b-card-text>
