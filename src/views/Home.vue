@@ -5,6 +5,16 @@
         <b-col></b-col>
         <b-col cols="8 mt-2">
           <b-img class="profilepic" src="images/avatar.jpeg" alt="profilepic" />
+          <b-container>
+            <div>
+              <a href="https://github.com/Rvndyr/" target="_blank">
+                <img class="socials" src="https://img.icons8.com/nolan/48/github.png" />
+              </a>
+              <a href="https://www.linkedin.com/in/randyrod/" target="_blank">
+                <img class="socials" src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" />
+              </a>
+            </div>
+          </b-container>
           <div class="portText3">
             <span class="descText" id="header">Welcome!</span>
           </div>
@@ -87,6 +97,10 @@
   </div>
 </template>
 <style>
+.socials {
+  margin-top: 30px;
+  margin-right: 50px;
+}
 .text-bold {
   font-weight: 600 !important;
 }
