@@ -6,7 +6,7 @@
         <b-col cols="8 mt-2">
           <b-img class="profilepic" src="images/avatar.jpeg" alt="profilepic" />
           <b-container>
-            <div>
+            <div class="socialIcons">
               <a href="https://github.com/Rvndyr/" target="_blank">
                 <img class="socials" src="https://img.icons8.com/nolan/48/github.png" />
               </a>
@@ -196,6 +196,20 @@ a:hover {
   100% {
     opacity: 1;
   }
+}
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
 </style>
 <script>
