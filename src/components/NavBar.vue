@@ -6,7 +6,7 @@
       <b-nav-item
         href="https://docs.google.com/document/d/1SdAqbDNZB9bDLs_ev2EAJ06BXYyr-0qpHBcpI15izZw/edit?usp=sharing"
         target="_blank"
-        class="info"
+        v-b-popover.hover.bottomleft="{ variant: 'info', content: 'This opens a new tab to Google Docs' }"
       >
         Resume
       </b-nav-item>
@@ -17,23 +17,18 @@
 export default {};
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 .nav-tabs {
   text-decoration: none;
   border-bottom: none !important;
+  font-family: "Lobster", cursive;
 }
 
 .form-inline li {
   padding: 5px;
 }
 
-/* @media (min-width: 768px) {
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
-}
-@media (min-width: 1400px) {
-} */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
