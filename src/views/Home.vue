@@ -230,6 +230,9 @@ a:hover {
     transform: scale(1);
     animation: pulse 2s infinite;
   }
+  .descText {
+    font-size: 3rem;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
