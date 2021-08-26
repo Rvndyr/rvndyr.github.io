@@ -40,7 +40,7 @@
               img-top
             >
               <b-card-text>
-                Twitch Multi-Mon - A utility used to watch multiple streamers utilizing the Twitch API
+                Twitch Multi-Mon - A utility used to watch multiple streamers using the Twitch API
               </b-card-text>
               <b-row class="py-4 text-center m-3">
                 <ul class="icon-set">
@@ -220,6 +220,16 @@ a:hover {
   }
 }
 @media only screen and (max-width: 600px) {
+  .socials {
+    margin-top: 30px;
+    margin-right: 0px;
+    background: transparent;
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
