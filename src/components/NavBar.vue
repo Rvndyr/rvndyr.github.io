@@ -44,14 +44,42 @@ export default {};
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .nav-tabs {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-family: "Lobster", cursive;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .nav-tabs {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-family: "Lobster", cursive;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .nav-tabs {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-family: "Lobster", cursive;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .nav-tabs {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-family: "Lobster", cursive;
+  }
 }
 </style>
