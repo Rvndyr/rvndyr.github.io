@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-nav tabs align="right">
+    <b-nav tabs>
       <b-nav-item to="/">Home</b-nav-item>
       <b-nav-item to="/about">About</b-nav-item>
       <b-nav-item
@@ -20,6 +20,8 @@ export default {};
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 .nav-tabs {
+  display: flex;
+  justify-content: right;
   text-decoration: none;
   border-bottom: none !important;
   font-family: "Lobster", cursive;
@@ -31,6 +33,14 @@ export default {};
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .nav-tabs {
+    display: flex !important;
+    justify-content: space-between !important;
+    font-size: 2rem;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-family: "Lobster", cursive;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
