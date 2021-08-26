@@ -15,14 +15,38 @@
               </a>
             </div>
           </b-container>
+
           <div class="portText3">
             <span class="descText" id="header">Welcome!</span>
           </div>
         </b-col>
         <b-col></b-col>
       </b-row>
-      <div></div>
     </b-container>
+    <section class="page-section"></section>
+    <div class="container px-4 px-lg-5">
+      <h1 class="text-center mt-0">Skills</h1>
+      <hr class="divider" />
+      <b-container class="skillsIcon">
+        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/vue-js.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/postgreesql.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+
+        <img src="https://img.icons8.com/color/48/000000/git.png" />
+      </b-container>
+    </div>
 
     <section class="page-section" href="#Projects">
       <div class="container px-4 px-lg-5">
@@ -90,6 +114,10 @@
   </div>
 </template>
 <style>
+.skillsIcon {
+  display: flex;
+  justify-content: center;
+}
 .socials {
   margin-top: 30px;
   margin-right: 50px;
@@ -239,6 +267,10 @@ a:hover {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .skillsIcon {
+    height: 4rem;
+    justify-content: space-between;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
