@@ -21,17 +21,22 @@
               </a>
             </div>
           </b-container>
-
-          <div class="portText3">
-            <span class="descText" id="header">Welcome!</span>
+          <div class="container px-4 px-lg-5">
+            <span class="descText" id="header"
+              >Welcome! My name is Randy. I'm a SysDev Engineer at Jamf</span
+            >
           </div>
+
+          <!-- <div class="portText3">
+            <span class="descText" id="header">Welcome!</span>
+          </div> -->
         </b-col>
         <b-col></b-col>
       </b-row>
     </b-container>
-    <section class="page-section"></section>
+
     <div class="container px-4 px-lg-5">
-      <h1 class="text-center mt-0">Skills</h1>
+      <h1 class="text-center mt-0">Tech Stack</h1>
       <hr class="divider" />
       <b-container class="skillsIcon">
         <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
@@ -57,6 +62,8 @@
         <img
           src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
         />
+        <img src="https://img.icons8.com/color/48/000000/jenkins.png" />
+        <img src="https://img.icons8.com/color/48/000000/bitbucket.png" />
       </b-container>
     </div>
 
@@ -194,12 +201,13 @@ a:hover {
 }
 .descText {
   font-size: 4rem;
+  padding-top: 2em;
 }
 .icon {
   height: 50px;
   width: 50px;
 }
-.portText1 {
+/* .portText1 {
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
   -moz-animation: fadeIn 2s;
@@ -233,7 +241,7 @@ a:hover {
   100% {
     opacity: 1;
   }
-}
+} */
 
 @-moz-keyframes fadeIn {
   0% {
@@ -308,18 +316,17 @@ export default {
     return {};
   },
   created: function () {
-    const nameSwitch = () => {
-      const header = document.querySelector("#header");
-      const engineer = "{Software Engineer}";
-      const techLover = "{Tech Lover}";
-      if (header.textContent === engineer) {
-        header.textContent = techLover;
-      } else {
-        header.textContent = engineer;
-      }
-    };
-
-    setInterval(nameSwitch, 8000);
+    // const nameSwitch = () => {
+    //   const header = document.querySelector("#header");
+    //   const engineer = "{Software Engineer}";
+    //   const techLover = "{Tech Lover}";
+    //   if (header.textContent === engineer) {
+    //     header.textContent = techLover;
+    //   } else {
+    //     header.textContent = engineer;
+    //   }
+    // };
+    // setInterval(nameSwitch, 8000);
   },
   methods: {},
 };

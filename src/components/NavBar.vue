@@ -6,7 +6,10 @@
       <b-nav-item
         href="https://docs.google.com/document/d/1SdAqbDNZB9bDLs_ev2EAJ06BXYyr-0qpHBcpI15izZw/edit?usp=sharing"
         target="_blank"
-        v-b-popover.hover.bottomleft="{ variant: 'info', content: 'This opens a new tab to Google Docs' }"
+        v-b-popover.hover.bottomleft="{
+          variant: 'info',
+          content: 'This opens a new tab to Google Docs',
+        }"
       >
         Resume
       </b-nav-item>
@@ -30,7 +33,6 @@ export default {};
 .form-inline li {
   padding: 5px;
 }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav-tabs {
