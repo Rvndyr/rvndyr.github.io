@@ -8,10 +8,16 @@
           <b-container>
             <div class="socialIcons">
               <a href="https://github.com/Rvndyr/" target="_blank">
-                <img class="socials" src="https://img.icons8.com/nolan/48/github.png" />
+                <img
+                  class="socials"
+                  src="https://img.icons8.com/nolan/48/github.png"
+                />
               </a>
               <a href="https://www.linkedin.com/in/randyrod/" target="_blank">
-                <img class="socials" src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" />
+                <img
+                  class="socials"
+                  src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png"
+                />
               </a>
             </div>
           </b-container>
@@ -32,7 +38,9 @@
 
         <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
 
-        <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" />
+        <img
+          src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"
+        />
 
         <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
 
@@ -45,6 +53,10 @@
         <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
 
         <img src="https://img.icons8.com/color/48/000000/git.png" />
+
+        <img
+          src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
+        />
       </b-container>
     </div>
 
@@ -64,12 +76,16 @@
               img-top
             >
               <b-card-text>
-                Twitch Multi-Mon - A utility used to watch multiple streamers using the Twitch API
+                Twitch Multi-Mon - A utility used to watch multiple streamers
+                using the Twitch API
               </b-card-text>
               <b-row class="py-4 text-center m-3">
                 <ul class="icon-set">
                   <li>
-                    <a href="https://github.com/Rvndyr/MultiMon-frontend" target="_blank">
+                    <a
+                      href="https://github.com/Rvndyr/MultiMon-frontend"
+                      target="_blank"
+                    >
                       <b-icon icon="github" scale="2" variant="light"></b-icon>
                     </a>
                   </li>
@@ -89,16 +105,23 @@
               img-top
             >
               <b-card-text>
-                A simple table that allows you to see how frequent some Javascript frameworks are used.
+                A simple table that allows you to see how frequent some
+                Javascript frameworks are used.
               </b-card-text>
               <b-row class="py-4 text-center m-3">
                 <ul class="icon-set">
                   <li>
-                    <a href="https://github.com/Rvndyr/framework-watcher" target="_blank">
+                    <a
+                      href="https://github.com/Rvndyr/framework-watcher"
+                      target="_blank"
+                    >
                       <b-icon icon="github" scale="2" variant="light"></b-icon>
                     </a>
                   </li>
-                  <a href="https://amazing-galileo-550ce6.netlify.app/" target="_blank">
+                  <a
+                    href="https://amazing-galileo-550ce6.netlify.app/"
+                    target="_blank"
+                  >
                     <li class="text-bold">LIVE</li>
                   </a>
                 </ul>
