@@ -207,41 +207,6 @@ a:hover {
   height: 50px;
   width: 50px;
 }
-/* .portText1 {
-  animation: fadeIn 2s;
-  -webkit-animation: fadeIn 2s;
-  -moz-animation: fadeIn 2s;
-  -o-animation: fadeIn 2s;
-  -ms-animation: fadeIn 2s;
-  opacity: 1;
-  padding: 10px;
-}
-.portText2 {
-  animation: fadeIn 4s;
-  -webkit-animation: fadeIn 4s;
-  -moz-animation: fadeIn 4s;
-  -o-animation: fadeIn 4s;
-  -ms-animation: fadeIn 4s;
-  opacity: 1;
-  padding: 10px;
-}
-.portText3 {
-  animation: fadeIn 6s;
-  -webkit-animation: fadeIn 6s;
-  -moz-animation: fadeIn 6s;
-  -o-animation: fadeIn 6s;
-  -ms-animation: fadeIn 6s;
-  opacity: 1;
-  padding: 10px;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 
 @-moz-keyframes fadeIn {
   0% {
@@ -316,17 +281,6 @@ export default {
     return {};
   },
   created: function () {
-    // const nameSwitch = () => {
-    //   const header = document.querySelector("#header");
-    //   const engineer = "{Software Engineer}";
-    //   const techLover = "{Tech Lover}";
-    //   if (header.textContent === engineer) {
-    //     header.textContent = techLover;
-    //   } else {
-    //     header.textContent = engineer;
-    //   }
-    // };
-    // setInterval(nameSwitch, 8000);
   },
   methods: {},
 };
