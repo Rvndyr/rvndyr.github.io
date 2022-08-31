@@ -21,9 +21,9 @@
               </a>
             </div>
           </b-container>
-          <div class="container px-4 px-lg-5">
+          <div class="descTextBoarder container px-4 px-lg-5">
             <span class="descText" id="header"
-              >Welcome! My name is Randy. I'm a SysDev Engineer at Jamf</span
+              >Welcome! My name is Randy. I'm a SysDev Engineer at <a href="https://www.jamf.com/" target="_blank"><span style="color:#4F1287">Jamf</span></a>.</span
             >
           </div>
 
@@ -132,7 +132,7 @@
                     <li class="text-bold">LIVE</li>
                   </a>
                 </ul>
-              </b-row>
+             </b-row>
             </b-card>
           </b-card-group>
         </div>
@@ -144,6 +144,8 @@
   </div>
 </template>
 <style>
+@import url("https://fonts.google.com/specimen/Roboto+Slab");
+
 .skillsIcon {
   display: flex;
   justify-content: center;
@@ -180,6 +182,7 @@
 a {
   color: #fff !important;
   background-color: transparent;
+  font-family: "Roboto";
 }
 a:hover {
   text-decoration: none;
@@ -201,7 +204,12 @@ a:hover {
 }
 .descText {
   font-size: 4rem;
-  padding-top: 2em;
+}
+.descTextBoarder{
+  padding-top: 3rem;
+  padding-right: 0px;
+  padding-bottom: 9rem;
+  padding-left: 0px;
 }
 .icon {
   height: 50px;
@@ -244,6 +252,10 @@ a:hover {
   }
 }
 @media only screen and (max-width: 600px) {
+  .skillsIcon {
+  flex-wrap: wrap;
+  justify-content: center;
+}
   .socials {
     margin-top: 30px;
     margin-right: 0px;
@@ -255,7 +267,10 @@ a:hover {
     animation: pulse 2s infinite;
   }
   .descText {
-    font-size: 3rem;
+    font-size: 1.5rem;
+  }
+  .descTextBoarder {
+
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
