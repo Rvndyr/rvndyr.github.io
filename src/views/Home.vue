@@ -144,7 +144,7 @@
   </div>
 </template>
 <style>
-@import url("https://fonts.google.com/specimen/Poppins?query=poppin");
+@import url("https://fonts.google.com/specimen/Roboto+Slab");
 
 .skillsIcon {
   display: flex;
@@ -182,7 +182,7 @@
 a {
   color: #fff !important;
   background-color: transparent;
-  font-family: "poppin";
+  font-family: "Roboto";
 }
 a:hover {
   text-decoration: none;

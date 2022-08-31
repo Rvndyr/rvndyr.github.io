@@ -20,14 +20,14 @@
 export default {};
 </script>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.google.com/specimen/Roboto+Slab");
 
 .nav-tabs {
   display: flex;
   justify-content: right;
   text-decoration: none;
   border-bottom: none !important;
-  font-family: "Lobster", cursive;
+  font-family: "Roboto";
 }
 
 .form-inline li {
@@ -41,7 +41,7 @@ export default {};
     font-size: 2rem;
     text-decoration: none;
     border-bottom: none !important;
-    font-family: "Lobster", cursive;
+    font-family: "Roboto";
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -51,7 +51,8 @@ export default {};
     justify-content: right;
     text-decoration: none;
     border-bottom: none !important;
-    font-family: "Lobster", cursive;
+    font-family: "Roboto";
+    font-size: 1.5rem;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -61,7 +62,8 @@ export default {};
     justify-content: right;
     text-decoration: none;
     border-bottom: none !important;
-    font-family: "Lobster", cursive;
+    font-family: "Roboto";
+    font-size: 1.5rem;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -71,7 +73,8 @@ export default {};
     justify-content: right;
     text-decoration: none;
     border-bottom: none !important;
-    font-family: "Lobster", cursive;
+    font-family: "Roboto";
+    font-size: 1.5rem;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -81,7 +84,8 @@ export default {};
     justify-content: right;
     text-decoration: none;
     border-bottom: none !important;
-    font-family: "Lobster", cursive;
+    font-family: "Roboto";
+    font-size: 1.5rem;
   }
 }
 </style>
