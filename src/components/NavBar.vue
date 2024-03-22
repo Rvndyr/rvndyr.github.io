@@ -4,7 +4,7 @@
       <b-nav-item to="/">Home</b-nav-item>
       <b-nav-item to="/about">About</b-nav-item>
       <b-nav-item
-        href="https://docs.google.com/document/d/1SdAqbDNZB9bDLs_ev2EAJ06BXYyr-0qpHBcpI15izZw/edit?usp=sharing"
+        href="https://docs.google.com/document/d/1DNbo8vkPXNfWDvhhjZxe1DMqNCM0DrV0/edit?usp=sharing&ouid=117550818261684372414&rtpof=true&sd=true"
         target="_blank"
         v-b-popover.hover.bottomleft="{
           variant: 'info',
