@@ -23,7 +23,7 @@
           </b-container>
           <div class="descTextBoarder container px-4 px-lg-5">
             <span class="descText" id="header"
-              >Welcome! My name is Randy. I'm a SysDev Engineer at <a href="https://www.jamf.com/" target="_blank"><span style="color:#4F1287">Jamf</span></a>.</span
+              >Welcome! My name is Randy. I'm a Systems Development Engineer at <a href="https://www.jamf.com/" target="_blank"><span style="color:#4F1287">Jamf</span></a>.</span
             >
           </div>
 

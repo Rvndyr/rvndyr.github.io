@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/290ed587-e7c7-4a73-b1d3-14b9ae25a35b/deploy-status)](https://app.netlify.com/sites/rvndyr/deploys)
 
-#((https://rvndyr.netlify.app/))
+Prod URL: https://rvndyr.com/
 
 ## Project setup
 
