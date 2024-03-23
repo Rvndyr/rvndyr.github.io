@@ -1,31 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/290ed587-e7c7-4a73-b1d3-14b9ae25a35b/deploy-status)](https://app.netlify.com/sites/rvndyr/deploys)
+# React + Vite
 
-#((https://rvndyr.netlify.app/))
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Project setup
+Currently, two official plugins are available:
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
