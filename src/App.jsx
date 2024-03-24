@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav.jsx'
 import styled from 'styled-components'
 import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -17,6 +18,7 @@ function App() {
     components in each page that get rendered. */}
     <Routes>
       <Route exact path='/' element={<Home/>} />
+      <Route exact path='/about' element={<About/>} />
     </Routes>
     </Container>
    </Background>
