@@ -4,6 +4,7 @@ import Nav from './components/Nav.jsx'
 import styled from 'styled-components'
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -19,6 +20,8 @@ function App() {
     <Routes>
       <Route exact path='/' element={<Home/>} />
       <Route exact path='/about' element={<About/>} />
+      <Route exact path='/projects' element={<Projects/>} />
+
     </Routes>
     </Container>
    </Background>
