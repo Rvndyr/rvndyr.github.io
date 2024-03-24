@@ -23,7 +23,8 @@ align-items: center;
 justify-content: flex-start;
 height:100vh;
 background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
-
+color: red;
+margin: 0 0 0 0;
 `
 
 export default App
