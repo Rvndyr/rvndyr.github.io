@@ -1,18 +1,21 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav.jsx'
-import Hero from './components/Hero.jsx'
 import styled from 'styled-components'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import Home from './pages/Home.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
 
   return (
+    // This container wraps the entire page under the body tag to size content how I want
    <Container darkMode = {darkMode}>
+    {/* This nav component takes in two params and a func handles the "props" to enable or disable darkmode. */}
     <Nav darkModeSetter={setDarkMode} darkModeGetter={darkMode}/>
-    <Hero />
+    {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component */}
+    <Routes>
+      <Route exact path='/' element={<Home/>} />
+    </Routes>
    </Container>
   )
 }
@@ -23,8 +26,7 @@ align-items: center;
 justify-content: flex-start;
 height:100vh;
 background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
-color: red;
-margin: 0 0 0 0;
+color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
 `
 
 export default App
