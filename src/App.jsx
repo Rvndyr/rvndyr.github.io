@@ -9,17 +9,20 @@ function App() {
 
   return (
     // This container wraps the entire page under the body tag to size content how I want
-   <Container darkMode = {darkMode}>
+   <Background darkMode = {darkMode}>
     {/* This nav component takes in two params and a func handles the "props" to enable or disable darkmode. */}
+    <Container>
     <Nav darkModeSetter={setDarkMode} darkModeGetter={darkMode}/>
-    {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component */}
+    {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component that also has its own
+    components in each page that get rendered. */}
     <Routes>
       <Route exact path='/' element={<Home/>} />
     </Routes>
-   </Container>
+    </Container>
+   </Background>
   )
 }
-const Container = styled.div`
+const Background = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -27,6 +30,9 @@ justify-content: flex-start;
 height:100vh;
 background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
 color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
+`
+const Container = styled.div`
+width:40vw;
 `
 
 export default App
