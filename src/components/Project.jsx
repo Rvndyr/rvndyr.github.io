@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Project = ({time, title, sourceLink, liveLink }) => {
+const Project = ({time, title, sourceLink, liveLink, desc}) => {
   return (
     <Container>
       <Time>{time}</Time>
       <span>{title}</span>
 
-      <P>Watch muliple streams in 1 window!</P>
+      <P>{desc}</P>
 
       <ButtonContainer>
         <ButtonLinks>

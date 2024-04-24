@@ -35,7 +35,6 @@ const Background = styled.div`
   height: 200vh;
   background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
   color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
-  // overflow: hidden;
 `;
 const Container = styled.div`
   width: 40vw;
