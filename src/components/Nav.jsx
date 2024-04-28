@@ -3,10 +3,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components"
 
-const Nav = ({darkModeGetter, darkModeSetter}) => {
-function toggleDarkMode (){
-  darkModeSetter(!darkModeGetter)
-}
+// const Nav = ({darkModeGetter, darkModeSetter}) => {
+  const Nav = () =>{
+// function toggleDarkMode (){
+//   darkModeSetter(!darkModeGetter)
+// }
 return (
   <Container>
     <LinkContainer>
@@ -16,7 +17,7 @@ return (
       <Link to="/Projects"><button>Projects</button></Link>
       <Link to="https://github.com/Rvndyr" target="_blank"><button>Github</button></Link>
     </LinkContainer>
-    <button onClick={()=>toggleDarkMode()}>Dark</button>
+    {/* <button onClick={()=>toggleDarkMode()}>Dark</button> */}
   </Container>
 )
 }

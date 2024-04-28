@@ -8,14 +8,16 @@ import Blog from './pages/Blog.jsx';
 import Projects from './pages/Projects.jsx';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
+  // const [darkMode, setDarkMode] = useState(false)
 
   return (
     // This container wraps the entire page under the body tag to size content how I want
-   <Background darkMode = {darkMode}>
+  //  <Background darkMode = {darkMode}>
+   <Background>
     {/* This nav component takes in two params and a func handles the "props" to enable or disable darkmode. */}
     <Container>
-      <Nav darkModeSetter={setDarkMode} darkModeGetter={darkMode}/>
+      {/* <Nav darkModeSetter={setDarkMode} darkModeGetter={darkMode}/> */}
+      <Nav/>
       {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component that also has its own
       components in each page that get rendered. */}
       <Routes>
@@ -35,8 +37,11 @@ const Background = styled.div`
   align-items: center;
   justify-content: flex-start;
   height: 200vh;
-  background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
-  color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
+  background-color: #181818;
+  color: #f9f9f9;
+  // This is for the darkmode button:
+  // background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
+  // color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
 `;
 const Container = styled.div`
   width: 40vw;

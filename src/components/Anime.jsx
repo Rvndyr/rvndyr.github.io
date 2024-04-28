@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styled from "styled-components";
 import axios from "axios";
 
 const Anime = () => {
@@ -32,7 +33,7 @@ const Anime = () => {
   }, []); // Empty dependency array ensures useEffect runs only once on component mount
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <Loader>Loading..</Loader>;
   }
 
   if (error) {
@@ -49,3 +50,10 @@ const Anime = () => {
 };
 
 export default Anime
+
+const Loader = styled.div`
+  position: relative;
+  width: 120px;
+  height: 90px;
+  margin: 0 auto;
+`
