@@ -33,7 +33,7 @@ const Anime = () => {
   }, []); // Empty dependency array ensures useEffect runs only once on component mount
 
   if (isLoading) {
-    return <Loader>Loading..</Loader>;
+    return <div>Loading..</div>;
   }
 
   if (error) {
@@ -41,19 +41,17 @@ const Anime = () => {
   }
 
   return (
-    <div>
+    <Container>
       <p>Quote: {quoteData.quote}</p>
       <p>Anime: {quoteData.anime}</p>
       <p>Author: {quoteData.author}</p>
-    </div>
+    </Container>
   );
 };
 
 export default Anime
 
-const Loader = styled.div`
+const Container = styled.div`
   position: relative;
-  width: 120px;
-  height: 90px;
-  margin: 0 auto;
+  width: 50%;
 `

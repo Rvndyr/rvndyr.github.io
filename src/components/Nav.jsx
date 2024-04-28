@@ -25,9 +25,10 @@ const Container = styled.div`
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 padding-top: 3vh;
 width: 100%;
+border: thick double purple
 `
 const LinkContainer = styled.div`
 display: flex;

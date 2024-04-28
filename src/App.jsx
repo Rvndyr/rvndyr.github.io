@@ -44,8 +44,9 @@ const Background = styled.div`
   // color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
 `;
 const Container = styled.div`
-  width: 40vw;
-  height: 200vh;
+  width: 50vw;
+  height: 100%;
+  border: thick double yellow
 `;
 
 export default App
