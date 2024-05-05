@@ -25,7 +25,7 @@ const Container = styled.div`
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-// padding-top: 10%;
+padding-top: 10%;
 border: thick double #32a1ce;
 `
 
