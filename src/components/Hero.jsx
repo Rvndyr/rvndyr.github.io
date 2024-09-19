@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styled from "styled-components";
-import Anime from "./Anime";
 
 
 // const avatar = require("./assets/randy.jpg")
@@ -11,13 +10,9 @@ const Hero = () => {
   return (
     <Container>
       <LeftBox>
-        <span>Hi, my name is</span>
-        <h1><abbr title="Randy Rodriguez :)">Randy</abbr></h1>
-        <span>I'm a software developer who makes open-source projects 
-          and writes about life, code, design, and more. Welcome to my digital garden. 🌱 </span>
+        <span>hey</span>
+        <P>im a developer specializing in cloud engineering and automation. i dabble in web dev here and there 🌚. my approach to the work i do is all about keeping things simple and practical, following basic principles that work.</P>
       </LeftBox>
-      <Anime />
-      {/* <Image src="src/assets/randy.JPG"></Image> */}
     </Container>
   )
 }
@@ -25,13 +20,13 @@ const Container = styled.div`
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding-top: 10%;
+padding-top: 5%;
 border: thick double #32a1ce;
 `
 
 const P = styled.p`
 text-wrap: wrap;
-width: 75%;
+width: 100%;
 border: thick double red
 `
 

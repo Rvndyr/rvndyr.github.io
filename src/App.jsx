@@ -45,7 +45,7 @@ const Background = styled.div`
 `;
 const Container = styled.div`
   width: 50vw;
-  height: 100%;
+  height: 40%;
   border: thick double yellow
 `;
 

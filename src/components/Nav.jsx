@@ -10,14 +10,12 @@ import styled from "styled-components"
 // }
 return (
   <Container>
-    <LinkContainer>
-      <Link to="/"><button>Home</button></Link>
-      <Link to="/About"><button>About</button></Link>
-      <Link to="/Blog"><button>Blog</button></Link>
-      <Link to="/Projects"><button>Projects</button></Link>
-      <Link to="https://github.com/Rvndyr" target="_blank"><button>Github</button></Link>
-    </LinkContainer>
-    {/* <button onClick={()=>toggleDarkMode()}>Dark</button> */}
+      <Home to="/">randy rodriguez</Home>
+      <NavRoutes>
+      <NavLink to="/Blog">blog</NavLink>
+      <NavLink to="/Projects">work</NavLink>
+      <NavLink to="/About">about</NavLink>
+      </NavRoutes>
   </Container>
 )
 }
@@ -25,14 +23,23 @@ const Container = styled.div`
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 padding-top: 3vh;
 width: 100%;
 border: thick double purple
 `
-const LinkContainer = styled.div`
-display: flex;
-gap: 2vh;
+const NavLink = styled(Link)`
+background: none;
+text-decoration: none;
+color: grey;
 `
-
+const NavRoutes = styled.div`
+display: flex;
+border: thick double red;
+padding-right: 3vh;
+gap: 10px;
+`
+const Home = styled(NavLink)`
+color: white;
+`
 export default Nav
