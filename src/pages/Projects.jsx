@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Project from "../components/Project";
-import projects from "../posts/projects"
 
 const Projects = () => {
   "This is a spread operator that turns projects -> obj into an array of an object "
@@ -12,19 +10,10 @@ const Projects = () => {
   <h3>things ive done.</h3>
     <ul>
       <ListStyle>
-        i obviously dont think to deep into design 😩
+       <a href="https://multi-mon.netlify.app/login" target="_blank" rel="noopener noreferrer"> multi-mon:</a> a utility used to watch multiple streams over twitch | <a href="https://github.com/Rvndyr/MultiMon-frontend" target= "_blank">github</a>
       </ListStyle>
       <ListStyle>
         born in new york city, raised in the bronx. my roots gave me <i>thick</i> skin
-      </ListStyle>
-      <ListStyle>
-        packaged my bags and drove 1,000* miles to tampa, florida, which i now call home
-      </ListStyle>
-      <ListStyle>
-        passionate about cars, bikes, and tech
-      </ListStyle>
-      <ListStyle>
-        fluent in english and spanish
       </ListStyle>
     </ul>
     
@@ -42,6 +31,18 @@ flex-wrap: wrap;
 height: 50vh;
 gap: 2vh;
 width: 100%;
+ a {
+    color: #007acc; /* Use your preferred link color */
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #007acc; /* Override visited link color */
+  }
+
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
 // border: thick double green;
 `;
 
@@ -50,5 +51,4 @@ list-style-type: "⏤";
 margin-bottom: .5em;
 padding-inline-start: .375em;
 `
-
 export default Projects;
