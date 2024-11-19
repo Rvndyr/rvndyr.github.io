@@ -1,5 +1,4 @@
 import React from "react";
-import Anime from "../components/Anime";
 import styled from "styled-components";
 
 
@@ -7,15 +6,12 @@ const About = ()=> {
 
   return(
     <>
-    <h1>about</h1>
+    <h3>about</h3>
 
-    <Anime />
+    
 
     <p>brief facts about me</p>
     <ul>
-      <ListStyle>
-        i obviously dont think to deep into design 😩
-      </ListStyle>
       <ListStyle>
         born in new york city, raised in the bronx. my roots gave me <i>thick</i> skin
       </ListStyle>
@@ -23,10 +19,16 @@ const About = ()=> {
         packaged my bags and drove 1,000* miles to tampa, florida, which i now call home
       </ListStyle>
       <ListStyle>
-        passionate about cars, bikes, and tech
+        passionate about cars, bikes, tech, and fitness
       </ListStyle>
       <ListStyle>
         fluent in english and spanish
+      </ListStyle>
+      <ListStyle>
+        unfortunantely, i have an obssession with watches; 
+      </ListStyle>
+      <ListStyle>
+        i listen to all types of music, different genre's, pace, and language(s), especially japanese music
       </ListStyle>
     </ul>
     </>

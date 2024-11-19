@@ -12,7 +12,7 @@ return (
   <Container>
       <Home to="/">randy rodriguez</Home>
       <NavRoutes>
-      <NavLink to="/Blog">blog</NavLink>
+      {/* <NavLink to="/Blog">blog</NavLink> */}
       <NavLink to="/Projects">work</NavLink>
       <NavLink to="/About">about</NavLink>
       </NavRoutes>
@@ -26,16 +26,16 @@ align-items: center;
 justify-content: space-between;
 padding-top: 3vh;
 width: 100%;
-border: thick double purple
+// border: thick double purple
 `
 const NavLink = styled(Link)`
 background: none;
 text-decoration: none;
-color: grey;
+color: #adb5bd;
 `
 const NavRoutes = styled.div`
 display: flex;
-border: thick double red;
+// border: thick double red;
 padding-right: 3vh;
 gap: 10px;
 `

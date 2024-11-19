@@ -1,14 +1,13 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav.jsx'
 import styled from 'styled-components'
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
-import Blog from './pages/Blog.jsx';
+// import Blog from './pages/Blog.jsx';
 import Projects from './pages/Projects.jsx';
 
 function App() {
-  // const [darkMode, setDarkMode] = useState(false)
 
   return (
     // This container wraps the entire page under the body tag to size content how I want
@@ -16,18 +15,19 @@ function App() {
    <Background>
     {/* This nav component takes in two params and a func handles the "props" to enable or disable darkmode. */}
     <Container>
-      {/* <Nav darkModeSetter={setDarkMode} darkModeGetter={darkMode}/> */}
       <Nav/>
       {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component that also has its own
       components in each page that get rendered. */}
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/about' element={<About/>} />
-        <Route exact path='/blog' element={<Blog/>} />
+        {/* <Route exact path='/blog' element={<Blog/>} /> */}
         <Route exact path='/projects' element={<Projects/>} />
       </Routes>
-
     </Container>
+      <Footer>
+      © “Catch on fire if you must, sometimes everything must burn to the ground so that we may grow.” A. J. Lawless
+      </Footer>
    </Background>
   )
 }
@@ -37,16 +37,25 @@ const Background = styled.div`
   align-items: center;
   justify-content: flex-start;
   height: 200vh;
-  background-color: #181818;
+  background-color: #15191f;
   color: #f9f9f9;
-  // This is for the darkmode button:
-  // background-color: ${props=>props.darkMode ? '#181818': '#f9f9f9'};
-  // color: ${props=>props.darkMode ? '#f9f9f9': '#181818'};
+  text-transform: lowercase;
+  font-family: Geist Mono,serif;
 `;
 const Container = styled.div`
   width: 50vw;
   height: 40%;
-  border: thick double yellow
+  // border: thick double yellow
+  // flex: 1;
+`;
+
+const Footer = styled.footer`
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 `;
 
 export default App
