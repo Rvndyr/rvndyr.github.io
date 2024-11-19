@@ -37,7 +37,7 @@ const LeftBox = styled.div`
 display: flex;
 flex-direction: column;
 // border: thick double #32a1ce;
-width: 50%
+width: 80%
 `
 
 const Image = styled.img`
