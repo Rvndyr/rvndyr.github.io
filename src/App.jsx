@@ -53,9 +53,10 @@ const Footer = styled.footer`
   color: #fff;
   text-align: center;
   padding: 1rem;
-  font-family: "Meow Script", cursive;
-  font-weight: 400;
+  font-family: "Bad Script", cursive;
+  font-weight: 200;
   font-style: normal;
+  font-size: 1rem;
 `;
 
 export default App
