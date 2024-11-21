@@ -16,7 +16,7 @@ const Hero = () => {
       I'm a developer specializing in cloud engineering and automation. I dabble in web dev here and there 🌚. My approach to the work I do is all about keeping things simple and practical, following basic principles that work. On this site you can see what I'm doing <i><StyledLink to="/now">now</StyledLink></i>, learn <i><StyledLink to="/about">about</StyledLink></i> me, and see what <i><StyledLink to="/projects">projects</StyledLink></i> I've worked on.
     </P>      </LeftBox>
       <ImageWrapper>
-      <Image src="src/assets/randy.JPG" alt="Profile pic" />
+      <Image src="src/assets/randy.JPG" alt="Profile pic" loading="lazy" />
       </ImageWrapper>
     </Container>
   )
