@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Books from "../components/Books";
 
 
 const About = ()=> {
@@ -28,8 +29,22 @@ const About = ()=> {
         unfortunantely, i have an obssession with watches; 
       </ListStyle>
       <ListStyle>
-        i listen to all types of music, different genre's, pace, and language(s), especially <a href="https://music.apple.com/us/album/otonoke/1771603028?i=1771603031" target="_blank" rel="noopener noreferrer">japanese</a> music
+        i listen to all types of music, different genre's, and language(s), especially <a href="https://music.apple.com/us/album/otonoke/1771603028?i=1771603031" target="_blank" rel="noopener noreferrer">japanese</a> music
       </ListStyle>
+      <ListStyle>
+
+        i have 3 energetic <HoverText> dogs<PopupImage
+        className="popup-image"
+        src="src/assets/3_doggos.jpeg"
+        alt="Popup"
+          />
+        </HoverText>!
+      </ListStyle>
+      <ListStyle>
+        some of the books ive read:
+        <Books/>
+      </ListStyle>
+
     </ul>
     </>
   )
@@ -106,4 +121,27 @@ a {
 }
 
 `
+const HoverText = styled.div`
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  &:hover .popup-image {
+    display: block; /* Show the image on hover */
+  }
+`;
+
+// Styled component for the popup image
+const PopupImage = styled.img`
+  display: none; /* Hide image by default */
+  position: absolute;
+  bottom: 100%; /* Position the image above the text */
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px); /* Adjust for spacing */
+  margin-bottom: 8px; /* Space between the text and image */
+  width: 150px; /* Adjust size of the popup image */
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+`;
 export default About
