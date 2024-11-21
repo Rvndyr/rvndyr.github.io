@@ -10,14 +10,9 @@ import Projects from './pages/Projects.jsx';
 function App() {
 
   return (
-    // This container wraps the entire page under the body tag to size content how I want
-  //  <Background darkMode = {darkMode}>
    <Background>
-    {/* This nav component takes in two params and a func handles the "props" to enable or disable darkmode. */}
     <Container>
       <Nav/>
-      {/* Routes handles the routes on the page. Additionally, houses components I want rendered for each page. Each page is shown under routes as a component that also has its own
-      components in each page that get rendered. */}
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/about' element={<About/>} />

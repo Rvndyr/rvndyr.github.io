@@ -7,10 +7,6 @@ const About = ()=> {
 
   return(
     <>
-    <h3>about</h3>
-
-    
-
     <p>brief facts about me</p>
     <ul>
       <ListStyle>
