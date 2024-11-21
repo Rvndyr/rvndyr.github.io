@@ -1,25 +1,22 @@
 name: Discord Notification
 
 on:
-  push:
-    branches:
-      - main
-      - develop
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  send_commit_message:
+  send_pr_message:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get latest commit message
-        id: commit_message
-        run: echo "::set-output name=message::$(git log -1 --pretty=format:'%s')"
-
       - name: Send message to Discord
         uses: Ilshidur/action-discord@master
         with:
-          args: ${{ steps.commit_message.outputs.message }}
+          args: |
+            Pull Request #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}
+            Created by: ${{ github.event.pull_request.user.login }}
+            URL: ${{ github.event.pull_request.html_url }}
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
