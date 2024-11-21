@@ -12,7 +12,7 @@ return (
   <Container>
       <Home to="/">randy rodriguez</Home>
       <NavRoutes>
-      {/* <NavLink to="/Blog">blog</NavLink> */}
+      <NavLink to="/Now">now</NavLink>
       <NavLink to="/Projects">work</NavLink>
       <NavLink to="/About">about</NavLink>
       </NavRoutes>

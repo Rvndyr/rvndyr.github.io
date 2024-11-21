@@ -4,7 +4,7 @@ import Nav from './components/Nav.jsx'
 import styled from 'styled-components'
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
-// import Blog from './pages/Blog.jsx';
+import Now from './pages/Now.jsx';
 import Projects from './pages/Projects.jsx';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/about' element={<About/>} />
-        {/* <Route exact path='/blog' element={<Blog/>} /> */}
+        <Route exact path='/now' element={<Now/>} />
         <Route exact path='/projects' element={<Projects/>} />
       </Routes>
     </Container>
