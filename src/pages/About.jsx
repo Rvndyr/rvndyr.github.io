@@ -31,7 +31,7 @@ const About = ()=> {
 
         i have 3 energetic <HoverText> dogs<PopupImage
         className="popup-image"
-        src="src/assets/3_doggos.jpeg"
+        src="https://rvndyr-portfolio.s3.us-east-2.amazonaws.com/assets/3_doggos.jpeg"
         alt="Popup"
           />
         </HoverText>!
