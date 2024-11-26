@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav.jsx'
 import styled from 'styled-components'
+import Nav from './components/Nav.jsx'
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Now from './pages/Now.jsx';
@@ -42,10 +42,9 @@ const Container = styled.div`
   height: 40%;
     @media (max-width: 768px) {
     width: 90vw;
-    border: 1px solid red;
+    // border: 1px solid red;
   }
-  border: 1px solid yellow
-  // flex: 1;
+  // border: 1px solid yellow
 `;
 
 const Footer = styled.footer`

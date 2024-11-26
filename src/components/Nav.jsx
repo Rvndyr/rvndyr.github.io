@@ -34,7 +34,7 @@ const Container = styled.div`
   @media (max-width: 768px) {
     align-items: center;
     padding-top: 2vh;
-    border: 1px solid red;
+    // border: 1px solid red;
   }
 `;
 
@@ -42,7 +42,7 @@ const NavLink = styled(Link)`
   background: none;
   text-decoration: none;
   color: #adb5bd;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 
   &:hover {
