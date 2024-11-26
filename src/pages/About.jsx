@@ -115,7 +115,9 @@ a {
   font-weight: 700;
   vertical-align: top;
 }
+@media and screen(720px){
 
+}
 `
 const HoverText = styled.div`
   position: relative;

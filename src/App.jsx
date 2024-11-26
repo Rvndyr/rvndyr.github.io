@@ -40,7 +40,11 @@ const Background = styled.div`
 const Container = styled.div`
   width: 50vw;
   height: 40%;
-  // border: thick double yellow
+    @media (max-width: 768px) {
+    width: 90vw;
+    border: 1px solid red;
+  }
+  border: 1px solid yellow
   // flex: 1;
 `;
 
