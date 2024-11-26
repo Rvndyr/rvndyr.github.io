@@ -1,26 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-// Styled components
-const BookListContainer = styled.div`
-  display: flex;
-  flex-direction: grid;
-  gap: 16px;
-  padding: 16px;
-`;
-
-const BookItem = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 16px;
-`;
-
-const BookImage = styled.img`
-  width: 100px;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-`;
 
 const Books = () => {
   // Book data stored within the component
@@ -71,3 +51,24 @@ const Books = () => {
 };
 
 export default Books;
+
+// Styled components
+const BookListContainer = styled.div`
+  display: flex;
+  flex-direction: grid;
+  gap: 16px;
+  padding: 16px;
+`;
+
+const BookItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+`;
+
+const BookImage = styled.img`
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+`;
