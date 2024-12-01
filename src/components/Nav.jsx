@@ -28,7 +28,6 @@ const Container = styled.div`
   justify-content: space-between; /* Aligns Home to the left and NavRoutes to the right */
   padding-top: 3vh;
   width: 100%;
-  max-width: 1024px;
   font-size: 1.5rem;
 
   @media (max-width: 768px) {

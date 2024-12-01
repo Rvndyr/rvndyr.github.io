@@ -124,7 +124,9 @@ const IconWrapper = styled.div`
   width: 50%;
   align-items: center;
   gap: 10px;
-  transform: translateX(25px);
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  padding: 5px;
 
   @media (max-width: 768px) {
     transform: none;

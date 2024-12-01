@@ -42,7 +42,7 @@ const Background = styled.div`
 `;
 
 const Container = styled.div`
-  width: 50vw;
+  max-width: 50vw;
   flex-grow: 1; /* Fills the space between the nav and footer */
   overflow-y: auto; /* Enables scrolling if content exceeds the space */
   @media (max-width: 768px) {
