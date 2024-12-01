@@ -30,21 +30,26 @@ const Background = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  height: 200vh;
+  justify-content: space-between; /* Keeps space between content and footer */
+  min-height: 100vh; /* Ensure the page takes up the full viewport height */
+  max-height: 100vh; /* Prevent scrolling beyond the viewport */
+  overflow: hidden; /* Disable scrolling beyond the footer */
   background-color: #15191f;
   color: #f9f9f9;
   text-transform: lowercase;
-  font-family: Geist Mono,serif;
+  font-family: Geist Mono, serif;
+  // border: 1px solid green; /* Testing borders */
 `;
+
 const Container = styled.div`
   width: 50vw;
-  height: 40%;
-    @media (max-width: 768px) {
+  flex-grow: 1; /* Fills the space between the nav and footer */
+  overflow-y: auto; /* Enables scrolling if content exceeds the space */
+  @media (max-width: 768px) {
     width: 90vw;
     // border: 1px solid red;
   }
-  // border: 1px solid yellow
+  // border: 1px solid yellow; /* Testing borders */
 `;
 
 const Footer = styled.footer`
@@ -55,6 +60,8 @@ const Footer = styled.footer`
   font-weight: 200;
   font-style: normal;
   font-size: 1rem;
+  // border: 1px solid blue; /* Testing borders */
 `;
+
 
 export default App
