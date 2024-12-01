@@ -5,14 +5,15 @@ import Hero from "../components/Hero";
 
 const Home = () => {
   return(
-  <div>
-  <Hero/>
-  </div>
-  )
-}
+  <Container>
+    <Hero/>
+  </Container>
+  );
+};
 
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
-
-export default Home
-
-// 
+export default Home;
