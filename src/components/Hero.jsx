@@ -93,10 +93,10 @@ const P = styled.p`
   width: 100%;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 350;
+  font-weight: 250;
   font-style: normal;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
 
   @media (max-width: 768px) {
     font-size: 1.2rem;
