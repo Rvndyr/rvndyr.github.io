@@ -14,8 +14,8 @@ const Nav = () => {
         ? <Burger isOpen={isOpen} setIsOpen={setIsOpen}/>
         :<>
         <NavLink to="/Now">now</NavLink>
-        <NavLink to="/Projects">work</NavLink>
         <NavLink to="/About">about</NavLink> </>}
+        <NavLink to="/Projects">work</NavLink>
       </NavRoutes>
     </Container>
   );
