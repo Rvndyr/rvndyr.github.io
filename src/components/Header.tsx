@@ -19,7 +19,7 @@ export function Header() {
             Now
           </Link>
           <a
-            href="https://github.com"
+            href="https://github.com/Rvndyr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
@@ -27,7 +27,7 @@ export function Header() {
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/randyrod/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
