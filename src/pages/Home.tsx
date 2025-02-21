@@ -63,7 +63,7 @@ export function Home() {
                 className="text-4xl font-bold tracking-tight sm:text-6xl dark:text-white"
                 variants={fadeInUp}
               >
-                DevOps Engineer & Cloud Architect
+                DevOps Engineer
               </motion.h1>
               <motion.p 
                 className="mt-6 text-xl text-gray-600 dark:text-gray-300"
@@ -80,7 +80,7 @@ export function Home() {
                   to="/blog"
                   className="group relative inline-flex items-center overflow-hidden rounded-md bg-gray-900 px-6 py-3 text-white transition-all duration-300 hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white"
                 >
-                  <span className="relative">Read Blog</span>
+                  <span className="relative">Blog</span>
                   <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
                 <Link
