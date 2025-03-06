@@ -29,55 +29,55 @@ export function About() {
           variants={fadeInUp}
         >
           <motion.h1 
-            className="text-4xl font-bold mb-8"
+            className="text-4xl font-bold mb-8 dark:text-white"
             variants={fadeInUp}
           >
             About Me
           </motion.h1>
           
           <motion.div 
-            className="prose prose-lg"
+            className="prose prose-lg dark:prose-invert"
             variants={fadeInUp}
           >
-            <p className="text-xl text-gray-600 mb-6">Brief facts about me</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">Brief facts about me</p>
 
             <ul className="space-y-4 list-none pl-0">
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>Born in New York City, raised in the Bronx. My roots gave me <i>thick</i> skin</span>
+                <span className="dark:text-gray-300">Born in New York City, raised in the Bronx. My roots gave me <i>thick</i> skin</span>
               </li>
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>Packed my bags and drove 1,000* miles to Tampa, Florida, which I now call home</span>
+                <span className="dark:text-gray-300">Packed my bags and drove 1,000* miles to Tampa, Florida, which I now call home</span>
               </li>
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>Passionate about cars, bikes, tech, and fitness</span>
+                <span className="dark:text-gray-300">Passionate about cars, bikes, tech, and fitness</span>
               </li>
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>Fluent in English and Spanish</span>
+                <span className="dark:text-gray-300">Fluent in English and Spanish</span>
               </li>
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>Unfortunately, I have an obsession with watches</span>
+                <span className="dark:text-gray-300">Unfortunately, I have an obsession with watches</span>
               </li>
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>
+                <span className="dark:text-gray-300">
                   I listen to all types of music, different genres, and languages, especially{" "}
                   <a
                     href="https://music.apple.com/us/album/otonoke/1771603028?i=1771603031"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative inline-block font-bold text-gray-900 hover:text-gray-700 
+                    className="relative inline-block font-bold text-gray-900 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white
                              after:content-[''] after:absolute after:w-full after:h-0.5 
-                             after:bg-gray-900 after:left-0 after:bottom-0 
+                             after:bg-gray-900 dark:after:bg-gray-300 after:left-0 after:bottom-0 
                              after:origin-right after:scale-x-0 hover:after:scale-x-100 
                              after:transition-transform after:duration-300 after:ease-out"
                   >
@@ -89,7 +89,7 @@ export function About() {
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <span>
+                <span className="dark:text-gray-300">
                   I have 3 energetic{" "}
                   <span className="relative group cursor-pointer">
                     dogs
@@ -105,7 +105,7 @@ export function About() {
               
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
-                <div>
+                <div className="dark:text-gray-300">
                   <span>Some of the books I've read:</span>
                   <div className="mt-4 overflow-x-auto pb-4">
                     <Books />

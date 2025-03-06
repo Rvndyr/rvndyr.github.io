@@ -30,24 +30,30 @@ const books = [
 
 export function Books() {
   return (
-    <div className="flex gap-4 p-4">
-      {books.map((book, index) => (
-        <div key={index} className="flex items-center">
-          <a 
-            href={book.link} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="transition-transform hover:scale-105"
+    <div className="relative">
+      <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+        {books.map((book, index) => (
+          <div 
+            key={index} 
+            className="flex-none snap-center"
           >
-            <img
-              src={book.image}
-              alt={book.title}
-              className="w-[100px] h-auto rounded-md shadow-md"
-              title={book.title}
-            />
-          </a>
-        </div>
-      ))}
+            <a 
+              href={book.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block transition-transform hover:scale-105"
+            >
+              <img
+                src={book.image}
+                alt={book.title}
+                className="w-[100px] h-[150px] rounded-md shadow-md object-cover"
+                title={book.title}
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+      <div className="absolute left-0 right-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent opacity-50" />
     </div>
   );
 }
