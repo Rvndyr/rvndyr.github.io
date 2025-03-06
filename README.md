@@ -1,5 +1,5 @@
 ## Installation
-Prod URL: https://rvndyr.com/
+[Visit Production Site](https://rvndyr.com/)
 
 Install my-project with npm
 
@@ -8,5 +8,3 @@ git clone https://github.com/Rvndyr/rvndyr.github.io.git
 cd rvndyr.github.io
 npm install
 npm run dev
-```
-    

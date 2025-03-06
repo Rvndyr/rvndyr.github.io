@@ -63,7 +63,7 @@ export function Home() {
                 className="text-4xl font-bold tracking-tight sm:text-6xl dark:text-white"
                 variants={fadeInUp}
               >
-                DevOps Engineer
+                Developer
               </motion.h1>
               <motion.p 
                 className="mt-6 text-xl text-gray-600 dark:text-gray-300"
@@ -159,8 +159,7 @@ export function Home() {
             className="mt-4 text-gray-600 dark:text-gray-300"
             variants={fadeInUp}
           >
-            A collection of my key projects in infrastructure automation, cloud architecture,
-            and DevOps practices.
+            A collection of my key projects
           </motion.p>
           <motion.div 
             className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
