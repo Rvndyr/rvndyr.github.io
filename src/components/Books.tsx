@@ -2,6 +2,11 @@ import React from 'react';
 
 const books = [
   {
+    title: "Red Rising",
+    image: "https://m.media-amazon.com/images/I/81wGzzxqHSL._SL1500_.jpg",
+    link: "https://a.co/d/7Z9Z9Zz",
+  },
+  {
     title: "Made to Stick: Why Some Ideas Survive and Others Die",
     image: "https://m.media-amazon.com/images/I/71ZtF6rSKYL._SL1500_.jpg",
     link: "https://a.co/d/iQulef7",
