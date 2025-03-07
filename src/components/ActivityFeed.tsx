@@ -28,7 +28,7 @@ export function ActivityFeed() {
   useEffect(() => {
     const fetchActivityFeed = async () => {
       try {
-        const response = await fetch('/src/timeline/activity_summary.md');
+        const response = await fetch('/timeline/activity_summary.md');
         const content = await response.text();
         
         // Parse the content by splitting on newlines and filtering empty lines
