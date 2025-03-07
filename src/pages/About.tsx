@@ -112,6 +112,10 @@ export function About() {
                   </div>
                 </div>
               </li>
+              <li className="flex items-start space-x-2">
+                <span className="text-gray-400">⏤</span>
+                <span className="dark:text-gray-300">Currently reading Red Rising in the list. My first Fantasy book!</span>
+              </li>
             </ul>
           </motion.div>
         </motion.div>
