@@ -22,8 +22,8 @@ const projects = [
   },
   {
     title: "Commit-Summary",
-    description: "A python script that generates a summary of your git commits for the week and uses a github action to post it to a markdown file.",
-    tags: ["Python", "GitHub Actions", "Git"],
+    description: "A python script that uses OpenAI to generates a summary of your github activity feed for the week and uses a github action to post it to a markdown file into a target repo.",
+    tags: ["Python", "GitHub Actions", "Git", "OpenAI"],
     githubUrl: "https://github.com/Rvndyr/commit-summary",
   }
 ];
