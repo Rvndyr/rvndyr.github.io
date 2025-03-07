@@ -21,16 +21,10 @@ const projects = [
     liveUrl: "https://multi-mon.netlify.app/login"
   },
   {
-    title: "Kubernetes Cluster Automation",
-    description: "Automated K8s cluster deployment with Terraform and Ansible on AWS EKS.",
-    tags: ["Kubernetes", "Terraform", "AWS", "Ansible"],
-    githubUrl: "",
-  },
-  {
-    title: "CI/CD Pipeline Framework",
-    description: "Reusable CI/CD pipeline templates for multiple deployment scenarios.",
-    tags: ["Jenkins", "Docker", "GitLab CI", "GitHub Actions"],
-    githubUrl: "",
+    title: "Commit-Summary",
+    description: "A python script that generates a summary of your git commits for the week and uses a github action to post it to a markdown file.",
+    tags: ["Python", "GitHub Actions", "Git"],
+    githubUrl: "https://github.com/Rvndyr/commit-summary",
   }
 ];
 
