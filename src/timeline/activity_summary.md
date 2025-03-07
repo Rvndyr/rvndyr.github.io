@@ -1,0 +1,5 @@
+---
+February 27, 2025: Worked on implementing S3 event handling to trigger Lambda function, removed HTTP contexts, and added a GitHub action for deploying Lambda via SAM deploy in the jonnicwolf/l3-v2-build-podcast-generator-fezzn repository.
+
+March 6, 2025: Made updates to the rvndyr/rvndyr.github.io repository by adding scroll functionality for books in the mobile view, updating links and font colors.
+---
