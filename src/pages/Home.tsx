@@ -2,6 +2,7 @@ import { ArrowRight, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ProjectCard } from '../components/ProjectCard';
+import { ActivityFeed } from '../components/ActivityFeed';
 
 const skills = [
   "Ruby", "Rails", "Vue.js", "JavaScript", "Python", "React", "HTML", "CSS",
@@ -117,27 +118,34 @@ export function Home() {
           viewport={{ once: true }}
           variants={staggerContainer}
         >
-          <motion.h2 
-            className="text-3xl font-bold dark:text-white"
-            variants={fadeInUp}
-          >
-            Core Skills
-          </motion.h2>
-          <motion.div 
-            className="mt-8 flex flex-wrap gap-3"
-            variants={staggerContainer}
-          >
-            {skills.map((skill, index) => (
-              <motion.span
-                key={skill}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <motion.h2 
+                className="text-3xl font-bold dark:text-white"
                 variants={fadeInUp}
-                custom={index}
-                className="rounded-full bg-gray-100 dark:bg-[#1e2330] px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-300 transition-all duration-300 hover:bg-gray-900 hover:text-white dark:hover:bg-[#2a2f3d] hover:scale-110 hover:shadow-lg cursor-default"
               >
-                {skill}
-              </motion.span>
-            ))}
-          </motion.div>
+                Core Skills
+              </motion.h2>
+              <motion.div 
+                className="mt-8 flex flex-wrap gap-3"
+                variants={staggerContainer}
+              >
+                {skills.map((skill, index) => (
+                  <motion.span
+                    key={skill}
+                    variants={fadeInUp}
+                    custom={index}
+                    className="rounded-full bg-gray-100 dark:bg-[#1e2330] px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-300 transition-all duration-300 hover:bg-gray-900 hover:text-white dark:hover:bg-[#2a2f3d] hover:scale-110 hover:shadow-lg cursor-default"
+                  >
+                    {skill}
+                  </motion.span>
+                ))}
+              </motion.div>
+            </div>
+            <div className="lg:col-span-1">
+              <ActivityFeed />
+            </div>
+          </div>
         </motion.div>
       </section>
 
