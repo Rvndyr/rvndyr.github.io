@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Books } from '../components/Books';
+import { TBRBooks } from '../components/TBRBooks';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -106,18 +107,21 @@ export function About() {
               <li className="flex items-start space-x-2">
                 <span className="text-gray-400">⏤</span>
                 <div className="dark:text-gray-300">
-                  <span>Some of the books I've read:</span>
+                  <span>Currently reading Morning Star in the Red Rising Saga. My first Fantasy series!</span>
                   <div className="mt-4 overflow-x-auto pb-4">
                     <Books />
                   </div>
                 </div>
               </li>
-
-              <li className="flex items-start space-x-2">
-                <span className="text-gray-400">⏤</span>
-                <span className="dark:text-gray-300">Currently reading Morning Star in the Red Rising Saga. My first Fantasy series!</span>
-              </li>
             </ul>
+
+            <div className="my-8 border-b border-gray-200 dark:border-gray-700"></div>
+
+            <div className="dark:text-gray-300">
+              <h3 className="text-xl font-semibold mb-4">To Be Read (TBR)</h3>
+              <p className="mb-4">Next up in my reading journey:</p>
+              <TBRBooks />
+            </div>
           </motion.div>
         </motion.div>
       </motion.div>
