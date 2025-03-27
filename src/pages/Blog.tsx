@@ -14,22 +14,10 @@ interface BlogPost {
 
 const posts: Omit<BlogPost, 'content'>[] = [
   {
-    title: "Implementing Zero-Trust Security in Kubernetes",
-    excerpt: "A comprehensive guide to implementing zero-trust security principles in Kubernetes clusters.",
-    date: "2024-03-15",
-    slug: "zero-trust-kubernetes"
-  },
-  {
-    title: "Optimizing CI/CD Pipelines for Microservices",
-    excerpt: "Best practices and strategies for building efficient CI/CD pipelines in a microservices architecture.",
-    date: "2024-03-10",
-    slug: "optimizing-cicd-pipelines"
-  },
-  {
-    title: "Infrastructure as Code: Beyond the Basics",
-    excerpt: "Advanced techniques and patterns for managing infrastructure as code at scale.",
+    title: "Commit Summary AI",
+    excerpt: "My First Open AI Project.",
     date: "2024-03-05",
-    slug: "infrastructure-as-code-advanced"
+    slug: "commit-summary"
   }
 ];
 
@@ -77,13 +65,13 @@ export function Blog() {
           className="text-3xl font-bold dark:text-white"
           variants={fadeInUp}
         >
-          Blog
+          DevOps Blog
         </motion.h1>
         <motion.p 
           className="mt-4 text-gray-600 dark:text-gray-300"
           variants={fadeInUp}
         >
-          A colection of random things; insights, tutorials, and best practices from my experience in Development 🌚. 
+          Insights, tutorials, and best practices from my experience in DevOps and cloud architecture.
         </motion.p>
         <motion.div 
           className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
