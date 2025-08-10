@@ -62,7 +62,7 @@ const books: Book[] = [
 export function Books() {
   return (
     <div className="relative">
-      <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+      <div className="flex gap-4 overflow-x-auto pb-4 pt-4 snap-x snap-mandatory scrollbar-hide">
         {books.map((book) => (
           <div 
             key={book.title} 
@@ -82,7 +82,7 @@ export function Books() {
                   title={`${book.title}${book.seriesOrder ? ` (Book ${book.seriesOrder})` : ''}`}
                 />
                 {book.currentlyReading && (
-                  <div className="absolute -top-3 -right-3 bg-green-500 text-white text-xs px-2 py-1 rounded-full shadow-lg animate-pulse">
+                  <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs px-2 py-1 rounded-full shadow-lg animate-pulse">
                     Reading
                   </div>
                 )}
