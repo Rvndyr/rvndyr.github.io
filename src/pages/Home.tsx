@@ -10,7 +10,7 @@ const skills = [
   "PostgreSQL", "Git", "GitHub", "APIs", "Pair-Programming", "Testing",
   "Object-Oriented Programming", "Bootstrap", "Materialize", "Jenkins",
   "Github Actions", "AWS", "Kubernetes", "Argocd", "Helm", "Docker",
-  "VMWare", "Microsoft Office Suite"
+  "VMWare"
 ];
 
 const projects = [
