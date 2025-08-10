@@ -74,11 +74,6 @@ export function Now() {
 
             <li className="flex items-start space-x-2">
               <span className="text-gray-400">⏤</span>
-              <span>Taking up the AWS Associate Developer certification to improve my AWS skills for future projects</span>
-            </li>
-
-            <li className="flex items-start space-x-2">
-              <span className="text-gray-400">⏤</span>
               <span>
                 Trying to read more manhwa. I finished the{" "}
                 <a
@@ -99,12 +94,22 @@ export function Now() {
 
             <li className="flex items-start space-x-2">
               <span className="text-gray-400">⏤</span>
-              <span>Preparing for my daughter to be born! We're thinking about names, and we might go with <strong>Alexandria</strong></span>
+              <span>Trying to be consistent in everything I do, whether that's in work, studies, relationships, or health</span>
+            </li>
+              
+            <li className="flex items-start space-x-2">
+              <span className="text-gray-400">⏤</span>
+              <span>Exploring more of Florida's beautiful landscapes</span>
             </li>
 
             <li className="flex items-start space-x-2">
               <span className="text-gray-400">⏤</span>
-              <span>Trying to be consistent in everything I do, whether that's in work, studies, relationships, or health</span>
+              <span>Learning to be more patient with myself and others</span>
+            </li>
+
+            <li className="flex items-start space-x-2">
+              <span className="text-gray-400">⏤</span>
+              <span>Discovering the beautiful state of mind that comes with cycling</span>
             </li>
           </motion.ul>
         </motion.div>
