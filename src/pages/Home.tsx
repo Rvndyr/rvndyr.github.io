@@ -106,7 +106,7 @@ export function Home() {
                   <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
                 <a
-                  href="mailto:randy@example.com"
+                  href="mailto:randyr2125@gmail.com"
                   className="group relative inline-flex items-center overflow-hidden rounded-full border-2 border-gray-300 dark:border-gray-600 px-8 py-4 text-gray-700 dark:text-gray-300 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:scale-105"
                 >
                   <span className="relative font-medium">Let's connect</span>
