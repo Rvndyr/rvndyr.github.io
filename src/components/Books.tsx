@@ -11,12 +11,26 @@ interface Book {
 
 const books: Book[] = [
   {
+    title: "Dark Age",
+    image: "https://m.media-amazon.com/images/I/81gO5aXFeqL._SY466_.jpg",
+    link: "https://a.co/d/heZvNdq",
+    series: "Red Rising Saga",
+    seriesOrder: 5,
+    currentlyReading: true
+  },  
+  {
+    title: "Iron Gold",
+    image: "https://m.media-amazon.com/images/I/81rwXOFT3QL._SY466_.jpg",
+    link: "https://a.co/d/caLWtpP",
+    series: "Red Rising Saga",
+    seriesOrder: 4,
+  },
+  {
     title: "Morning Star",
     image: "https://m.media-amazon.com/images/I/617wGOptJPL._SL1200_.jpg",
     link: "https://a.co/d/gfP3k6e",
     series: "Red Rising Saga",
-    seriesOrder: 3,
-    currentlyReading: true
+    seriesOrder: 3
   },
   {
     title: "Red Rising",
