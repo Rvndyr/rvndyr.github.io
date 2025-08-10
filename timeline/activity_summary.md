@@ -1,1 +1,5 @@
-August 10, 2025: Made various updates to the personal website, including changing email on contact form, updating the homepage, fixing current reading book badge, and removing MS Suit. Also, worked on the commit-summary repository by making changes to directories, adding spaces in the readme, and updating the working directory.
+August 10, 2025:
+- Updated the README in the repository `rvndyr.github.io`.
+- Worked on improving the Netlify build trigger in the `commit-summary` repository.
+- Continued updating the personal website `rvndyr.github.io` with changes to the contact form, email, and homepage design.
+- Made various small changes like adding spaces in the README and updating working directories in the `commit-summary` repository.
