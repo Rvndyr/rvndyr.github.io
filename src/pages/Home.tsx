@@ -85,7 +85,7 @@ export function Home() {
                 className="text-4xl md:text-6xl font-bold tracking-tight dark:text-white mb-6"
                 variants={fadeInUp}
               >
-                Building the future, one line of code at a time
+                Small efforts, big results. — Robert Collier
               </motion.h1>
               <motion.p 
                 className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto"
